@@ -4,22 +4,22 @@ date =  2018-09-19T13:10:39+02:00
 weight = 5
 +++
 
-## 1. Installing R and RStudio 
+## 1. Installing `R` and `RStudio` 
 
-### 1.1 Installing R
+### 1.1 Installing `R`
 
-We start with installing the latest version of R (4.0.2 as of August 14, 2020). R itself is similar to an engine and chassis of a car, that is a bare minimum so that you can start driving. You need to follow steps below: 
+Install the latest version of `R` (4.2.1 as of June 23, 2022). `R` itself is similar to an engine and chassis of a car, that is a bare minimum so that you can start driving. You need to follow steps below: 
 
 * Visit [https://cran.r-project.org](https://cran.r-project.org) and click on "Download R for ...", where ... coresponds to your operating system. 
 * Depending on the operating system: 
-  - For Mac: download "R-4.0.2.pkg", open this file, and install R
-  - For Widnows: click on "base", download the .exe file, open it, and install R
+  - For Mac: download "R-4.2.1.pkg", open this file, and install `R`
+  - For Windows: click on "base", download the .exe file, open it, and install `R`
   
-*Check yourself:* Open R application. In the console you will see something as follows:
+*Check yourself:* Open `R` application. In the console you will see something as follows:
 
 ```{toml}
-R version 4.0.2 (2020-06-22) -- "Taking Off Again"
-Copyright (C) 2020 The R Foundation for Statistical Computing
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
 Platform: x86_64-w64-mingw32/x64 (64-bit)
 
 R est un logiciel libre livré sans AUCUNE GARANTIE.
@@ -57,9 +57,9 @@ you need to follow [steps below](https://stackoverflow.com/questions/9689104/ins
 
 ### 1.2 Installing RStudio
 
-*Caution:* Install RStudio only once R has been installed and only in this order.
+*Caution:* Install `RStudio` only once `R` has been installed and only in this order.
 
-RStudio is an integrated development environment for R. Following up our exaple of the car, RStudio is similar to additional parts, such as exterior, interior, air conditioner, etc. You can drive the vehicle withour them, but life is much simpler and pleasent if they are present.
+`RStudio` is an integrated development environment for `R`. Following up our example of the car, `RStudio` is similar to additional parts, such as exterior, interior, air conditioner, etc. You can drive the vehicle without them, but life is much simpler and pleasant if they are present.
 
 We will install the free version: 
  
@@ -76,11 +76,11 @@ We will install the free version:
 
 <img src="/tutorials/length.png" alt="map" width="400px"/>
 
-*Check yourself:* Open RStudio application. In the console you will see something as follows:
+*Check yourself:* Open `RStudio` application. In the console you will see something as follows:
 
 ```{toml}
-R version 4.0.2 (2020-06-22) -- "Taking Off Again"
-Copyright (C) 2020 The R Foundation for Statistical Computing
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
 Platform: x86_64-w64-mingw32/x64 (64-bit)
 
 R est un logiciel libre livré sans AUCUNE GARANTIE.
@@ -98,7 +98,7 @@ Tapez 'q()' pour quitter R.
 
 ### 1.3 Installing packages
 
-*Note:* Packages can be installed from both R and RStudio. The installed RStudio is not required.
+*Note:* Packages can be installed from both `R` and `RStudio`. The installed `RStudio` is not required.
 
 In this course we will utilize a number of packages. If a package is published on CRAN, then the procedure of installing the package is straightforward: 
 
@@ -110,7 +110,7 @@ Several packages, however, would have only development version (or simply be not
 * Install `devtools` package (if it has not yet been installed) as usual (as shown above).
 * Type `devtools::install_github("username/repo")` and hit the Enter/return key to execute the command in the console, where `username` is the username of the owner of the repo, and `repo` is the name of the repo.
 
-For homework you will use the following packages from CRAN: `"tidyverse"`, `"rworldmap"`, `"rworldxtra"`, `"ggmap"`, `"devtools"`, `"rmarkdown"`, `"knitr"`, `"xml2"`, `"rvest"`, `"magrittr"`, `"shiny"`, `"roxygen2"`, and `"miniUI"`. 
+For homework you will use the following packages from CRAN: `"tidyverse"`, `"rworldmap"`, `"rworldxtra"`, `"ggmap"`, `"highcharter"`, `"devtools"`, `"rmarkdown"`, `"knitr"`, `"xml2"`, `"rvest"`, `"magrittr"`, `"shiny"`, `"roxygen2"`, and `"miniUI"`. 
 
 *Note:* Before installing the `"devtools"` package, you will most certainly need to install building tools.
 For Windows, you need to install [RTools](https://cran.r-project.org/bin/windows/Rtools/).
@@ -121,13 +121,13 @@ Instead of installing these packages one by one, you can pass the vector of char
 
 
 ```{toml}
-pkgs = c("tidyverse", "rworldmap", "rworldxtra", "ggmap", "devtools", "rmarkdown", "knitr", "xml2", "rvest", "magrittr", "shiny", "roxygen2","miniUI")
+pkgs = c("tidyverse", "rworldmap", "rworldxtra", "ggmap", "highcharter", "devtools", "rmarkdown", "knitr", "xml2", "rvest", "magrittr", "shiny", "roxygen2","miniUI")
 install.packages(pkgs = pkgs)
 ```
 
-Additionally, one has to install packages from `"ptdspkg"` repo of SMAC-Group GitHub user, and [Hadley Wickham](https://github.com/hadley)'s `"emo"` package (i.e., by using `devtools::install_github("SMAC-Group/ptdspkg")` and `devtools::install_github("hadley/emo")`, respectively).
+Additionally, one has to install [Hadley Wickham](https://github.com/hadley)'s `"emo"` package (i.e., by using `devtools::install_github("hadley/emo")`).
 
-*Note:* Packages should be installed only **once**. No needs to install them every time when you want to use them (it is the same as installing Skype every time you want to call your parents). That is why it is better to do it in concole, not in source editor.
+*Note:* Packages should be installed only **once**. No needs to install them every time when you want to use them (it is the same as installing Skype every time you want to call your parents). That is why it is better to do it in console, not in source editor.
 
 *Check yourself:* [To check if a package was installed successfully](https://stackoverflow.com/questions/9341635/check-for-installed-packages-before-running-install-packages), use `"name_of_package" %in% rownames(installed.packages())`.
 
