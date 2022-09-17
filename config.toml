@@ -44,7 +44,7 @@ home = [ "HTML", "RSS", "JSON"]
 [[menu.shortcuts]]
 name = "<i class='fab fa-github'></i> Github repo"
 identifier = "ds"
-url = "https://github.com/ptds2021/"
+url = "https://github.com/ptds2022/"
 weight = 5
 
 [[menu.shortcuts]]
