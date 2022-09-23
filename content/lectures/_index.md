@@ -15,14 +15,14 @@ Class-related discussion and questions will be on Slack, do not forget to regist
 | Week | Date | Topic | Instructor |   
 |---|---|---|---|   
 | 1 | 20 Sept | [Introduction](https://ptds2022.github.io/class/lecture01), [RMarkdown](https://ptds2022.github.io/class/lecture02_markdown), [Github](https://ptds2022.github.io/class/lecture03_github), [R/Rstudio installation]({{<relref "tutorials/r_install.md">}}) | Samuel |   
-| 2 | 27 Sept | Exercise 1, Homework 1, R coding style guide, Project-oriented workflow | Aleksandr |
+| 2 | 27 Sept | Exercise and Homework 1, [Project-oriented workflow]({{<relref "tutorials/workflow.md">}}) | Aleksandr |
 | 3 | 4 Oct | Data structures, Control structures, Bootstrap example | Samuel |
-| 4 | 11 Oct | Homework 2 | Aleksandr |
+| 4 | 11 Oct | Exercise and Homework 2, R coding style guide | Aleksandr |
 | 5 | 18 Oct | Functions, project proposal | Samuel |
-| 6 | 25 Oct | Homework 3 | Aleksandr | 
+| 6 | 25 Oct | Exercise and Homework 3 | Aleksandr | 
 | 7 | 1 Nov | Group project | Aleksandr |
 | 8 | 8 Nov| Shiny app, webscraping | Samuel |
-| 9 | 15 Nov | Homework 4 | Aleksandr |
+| 9 | 15 Nov | Exercise and Homework 4 | Aleksandr |
 | 10 | 22 Nov | Shiny app, R-pkg | Samuel |
 | 11 | 29 Nov | Group project | Aleksandr |
 | 12 | 6 Dec | blogdown, visualization | Samuel | 
