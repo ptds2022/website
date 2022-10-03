@@ -16,7 +16,7 @@ Class-related discussion and questions will be on Slack, do not forget to regist
 |---|---|---|---|   
 | 1 | 20 Sept | [Introduction](https://ptds2022.github.io/class/lecture01), [RMarkdown](https://ptds2022.github.io/class/lecture02_markdown), [Github](https://ptds2022.github.io/class/lecture03_github), [R/Rstudio installation]({{<relref "tutorials/r_install.md">}}) | Samuel |   
 | 2 | 27 Sept | Exercise and Homework 1, [Project-oriented workflow]({{<relref "tutorials/workflow.md">}}) | Aleksandr |
-| 3 | 4 Oct | Data structures, Control structures, Bootstrap example | Samuel |
+| 3 | 4 Oct | [Data structures](https://ptds2022.github.io/class/lecture04_datasctructure), [Control structures](https://ptds2022.github.io/class/lecture05_controlstructure) | Samuel |
 | 4 | 11 Oct | Exercise and Homework 2, R coding style guide | Aleksandr |
 | 5 | 18 Oct | Functions, project proposal | Samuel |
 | 6 | 25 Oct | Exercise and Homework 3 | Aleksandr | 
