@@ -18,10 +18,10 @@ Class-related discussion and questions will be on Slack, do not forget to regist
 | 2 | 27 Sept | Exercise and Homework 1, [Project-oriented workflow]({{<relref "tutorials/workflow.md">}}) | Aleksandr |
 | 3 | 4 Oct | [Data structures](https://ptds2022.github.io/class/lecture04_datastructure), [Control structures](https://ptds2022.github.io/class/lecture05_controlstructure) | Samuel |
 | 4 | 11 Oct | Exercise and Homework 2, R coding style guide | Aleksandr |
-| 5 | 18 Oct | Functions, project proposal | Samuel |
+| 5 | 18 Oct | [Function I](https://ptds2022.github.io/class/lecture06_function), [project proposal](https://ptds2022.github.io/class/lecture07_project), [webscraping](https://ptds2022.github.io/class/lecture07_scrap) | Samuel |
 | 6 | 25 Oct | Exercise and Homework 3 | Aleksandr | 
 | 7 | 1 Nov | Group project | Aleksandr |
-| 8 | 8 Nov| Shiny app, webscraping | Samuel |
+| 8 | 8 Nov| Function II, Shiny app | Samuel |
 | 9 | 15 Nov | Exercise and Homework 4 | Aleksandr |
 | 10 | 22 Nov | Shiny app, R-pkg | Samuel |
 | 11 | 29 Nov | Group project | Aleksandr |
