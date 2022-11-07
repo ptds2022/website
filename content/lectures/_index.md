@@ -23,7 +23,7 @@ Class-related discussion and questions will be on Slack, do not forget to regist
 | 7 | 1 Nov | Group project | Aleksandr |
 | 8 | 8 Nov| [Function II](https://ptds2022.github.io/class/lecture08_function), [Shiny app I](https://ptds2022.github.io/class/lecture09_shiny) | Samuel |
 | 9 | 15 Nov | Exercise and Homework 4 | Aleksandr |
-| 10 | 22 Nov | Shiny app, R-pkg | Samuel |
+| 10 | 22 Nov | Shiny app II, R-pkg | Samuel |
 | 11 | 29 Nov | Group project | Aleksandr |
 | 12 | 6 Dec | blogdown, visualization | Samuel | 
 | 13 | 13 Dec | Group project | Aleksandr | 
