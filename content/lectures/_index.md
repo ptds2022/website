@@ -21,7 +21,7 @@ Class-related discussion and questions will be on Slack, do not forget to regist
 | 5 | 18 Oct | [Function I](https://ptds2022.github.io/class/lecture06_function), [project proposal](https://ptds2022.github.io/class/lecture07_project), [webscraping](https://ptds2022.github.io/class/lecture07_scrap) | Samuel |
 | 6 | 25 Oct | Exercise and Homework 3 | Aleksandr | 
 | 7 | 1 Nov | Group project | Aleksandr |
-| 8 | 8 Nov| Function II, Shiny app | Samuel |
+| 8 | 8 Nov| [Function II](https://ptds2022.github.io/class/lecture08_function), [Shiny app I](https://ptds2022.github.io/class/lecture09_shiny) | Samuel |
 | 9 | 15 Nov | Exercise and Homework 4 | Aleksandr |
 | 10 | 22 Nov | Shiny app, R-pkg | Samuel |
 | 11 | 29 Nov | Group project | Aleksandr |
